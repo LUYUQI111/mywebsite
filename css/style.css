@@ -1,0 +1,63 @@
+/* Reset CSS */
+* {
+    margin: 0; /*<!-- 设置元素外边距为0 -->4*/
+    padding: 0; /*<!-- 设置元素内边距为0 -->*/
+    box-sizing: border-box; /*<!-- 设置盒模型为边框盒模型 -->*/
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;/* <!-- 设置字体 -->*/
+    line-height: 1.6; /*<!-- 设置行高 -->*/
+    background-color: #f0f0f0; /*<!-- 设置背景色 -->*/
+    padding: 20px; /*<!-- 设置页面内边距 -->*/
+}
+
+/* Header styles */
+header {
+    background-color: #333; /*<!-- 设置背景色 -->*/
+    color: #fff; /*<!-- 设置文字颜色 -->*/
+    padding: 20px; /*<!-- 设置内边距 -->*/
+}
+
+header h1 {
+    margin: 0; /*<!-- 设置标题的外边距为0 -->*/
+}
+
+nav ul {
+    list-style-type: none; /*<!-- 设置列表样式为无序列表 -->*/
+}
+
+nav ul li {
+    display: inline; /*<!-- 设置列表项水平显示 -->*/
+    margin-right: 20px; /*<!-- 设置右侧外边距 -->*/
+}
+
+nav ul li a {
+    color: #fff; /*<!-- 设置链接颜色 -->*/
+    text-decoration: none; /*<!-- 设置链接无下划线 -->*/
+}
+
+/* Section styles */
+section {
+    background-color: #fff; /*<!-- 设置背景色 -->*/
+    padding: 20px; /*<!-- 设置内边距 -->*/
+    margin-top: 20px; /*<!-- 设置顶部外边距 -->*/
+}
+
+section h2 {
+    color: #333; /*<!-- 设置标题颜色 -->*/
+}
+
+section p {
+    color: #666; /*<!-- 设置段落颜色 -->*/
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /*<!-- 设置背景色 -->*/
+    color: #fff; /*<!-- 设置文字颜色 -->*/
+    padding: 20px; /*<!-- 设置内边距 -->*/
+    margin-top: 20px;/* <!-- 设置顶部外边距 -->*/
+    text-align: center; /*<!-- 设置文本居中对齐 -->*/
+}

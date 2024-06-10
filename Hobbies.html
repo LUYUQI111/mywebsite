@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style2.css"> <!-- 导入外部样式表 -->
+  <title>My Hobbies</title>
+</head>
+<body>
+  <div class="container"> <!-- 定义一个容器用于包裹内容 -->
+    <h1>My Hobbies</h1> <!-- 显示标题 -->
+
+    <!-- 表格展示个人爱好 -->
+    <table>
+      <tr>
+        <th>爱好</th> <!-- 表头：爱好 -->
+        <th>介绍</th> <!-- 表头：描述 -->
+      </tr>
+      <tr>
+        <td>打乒乓球</td> <!-- 第一行数据：爱好1 -->
+        <td>打乒乓球是我最热爱的运动，挥拍间感受着身心的愉悦。每当球在球台上跳动，我就沉浸其中，忘记了一切烦恼和压力。乒乓球让我锻炼身体，提高专注力和反应能力，更重要的是，它拉近了我和朋友之间的距离。在球桌上，我们互相竞争，也互相尊重，这种体育精神让我深受感染。无论是与朋友一起享受比赛的乐趣，还是独自训练追求技术的进步，打乒乓球都成为我生活中不可或缺的一部分。</td> <!-- 第一行数据：爱好1的描述 -->
+      </tr>
+      <tr>
+        <td>参观美术画展</td> <!-- 第二行数据：爱好2 -->
+        <td>受到父母的影响，参观美术画展也是我最喜爱的文化活动之一，每幅作品都是艺术家心灵的流露，让我领略到不同艺术风格和时代的魅力。站在画作前，我沉浸在色彩和构图中，感受到作者所要传达的情感和意境。通过欣赏绘画，我拓宽了审美视野，也丰富了内心世界。美术画展不仅让我享受到艺术的魅力，更激发了我的创作灵感，成为我生活中不可或缺的精神养料。</td> <!-- 第二行数据：爱好2的描述 -->
+      </tr>
+      <tr>
+        <td>参观博物馆纪念馆</td> <!-- 第三行数据：爱好3 -->
+        <td>中学阶段我就喜欢历史这门科目，但高中学习理科再没有时间去回顾历史。上大学以来，我经常在课外时间去参观周围的博物馆与纪念馆，馆中每一件展品都是历史的见证，承载着珍贵的文化和记忆。在那里，我穿越时空，感受着历史的厚重与情感的冲击。展品中的每一个细节都是一个个故事的开端，让我更深刻地理解人类的历程和文明的发展。通过参观博物馆与纪念馆，我不仅学到了知识，更懂得了珍惜和尊重历史。</td> <!-- 第三行数据：爱好3的描述 -->
+      </tr>
+    </table>
+    <div class="image-container"> <!-- 图片容器 -->
+    <img src="img/pp1.jpg" alt="Hobby Image" class="hobby-image"> <!-- 添加图片 -->
+    <img src="img/pp2.jpg" alt="Hobby Image" class="hobby-image"> <!-- 添加图片 -->
+    </div>
+    <div class="image-container"> <!-- 图片容器 -->
+    <img src="img/painting1.jpg" alt="Hobby Image" class="hobby-image"> <!-- 添加图片 -->
+    <img src="img/painting2.jpg" alt="Hobby Image" class="hobby-image"> <!-- 添加图片 -->
+    </div>
+    <div class="image-container"> <!-- 图片容器 -->
+    <img src="img/memorial hall1.jpg" alt="Hobby Image" class="hobby-image"> <!-- 添加图片 -->
+    <img src="img/memorial hall2.jpg" alt="Hobby Image" class="hobby-image"> <!-- 添加图片 -->
+    </div>
+
+    <!-- 表单让用户添加新的爱好 -->
+    <h2>添加新的爱好</h2> <!-- 显示子标题 -->
+    <form id="hobbyForm"> <!-- 定义一个表单，id为hobbyForm -->
+      <label for="hobbyName">爱好名称:</label><br> <!-- 标签和输入框：爱好名称 -->
+      <input type="text" id="hobbyName" name="hobbyName" required><br> <!-- 输入框：爱好名称 -->
+      <label for="hobbyDescription">描述:</label><br> <!-- 标签和输入框：描述 -->
+      <textarea id="hobbyDescription" name="hobbyDescription" required></textarea><br> <!-- 多行文本框：描述 -->
+      <input type="submit" value="Submit"> <!-- 提交按钮 -->
+    </form>
+  </div>
+
+  <script src="script.js"></script> <!-- 导入外部JavaScript文件 -->
+</body>
+</html>

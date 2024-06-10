@@ -1,0 +1,76 @@
+/* 设置全局样式 */
+body {
+    font-family: Arial, sans-serif; /* 设置全局字体 */
+    background-color: #f4f4f4; /* 设置背景颜色 */
+    margin: 0; /* 清除默认的外边距 */
+    padding: 0; /* 清除默认的内边距 */
+  }
+  
+  /* 容器样式 */
+  .container {
+    max-width: 800px; /* 设置最大宽度 */
+    margin: 0 auto; /* 左右居中 */
+    padding: 20px; /* 设置内边距 */
+  }
+  
+  /* 歌手介绍样式 */
+  .artist-intro {
+    text-align: center; /* 文本居中对齐 */
+    margin-top: 20px; /* 顶部外边距 */
+    padding: 0 20px; /* 左右内边距 */
+  }
+  
+  .artist-intro h1 {
+    font-size: 32px; /* 设置标题字体大小 */
+    color: #333; /* 设置标题颜色 */
+  }
+  
+  .artist-intro img {
+    width: 200px; /* 设置图片宽度 */
+    height: 200px; /* 设置图片高度 */
+    border-radius: 50%; /* 设置圆角边框 */
+    margin-top: 10px; /* 顶部外边距 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  }
+  
+  .artist-intro p {
+    font-size: 18px; /* 设置段落字体大小 */
+    color: #666; /* 设置段落颜色 */
+    padding: 0 20px; /* 左右内边距 */
+  }
+  
+  /* 音乐播放器样式 */
+  .music-player {
+    text-align: center; /* 文本居中对齐 */
+    margin-top: 40px; /* 顶部外边距 */
+  }
+  
+  .music-player h2 {
+    font-size: 24px; /* 设置标题字体大小 */
+    color: #333; /* 设置标题颜色 */
+  }
+  
+  audio {
+    width: 100%; /* 设置音频宽度 */
+    margin-top: 20px; /* 顶部外边距 */
+  }
+  
+  /* 按钮样式 */
+  button {
+    background-color: #4CAF50; /* 设置背景颜色 */
+    color: white; /* 设置文字颜色 */
+    padding: 10px 20px; /* 设置内边距 */
+    text-align: center; /* 文本居中对齐 */
+    text-decoration: none; /* 清除超链接下划线 */
+    display: inline-block; /* 设置行内块元素 */
+    font-size: 16px; /* 设置字体大小 */
+    margin: 4px 2px; /* 设置外边距 */
+    cursor: pointer; /* 设置鼠标样式为手型 */
+    border-radius: 8px; /* 设置圆角边框 */
+    border: none; /* 清除边框 */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+  }
+  

@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif; /* 设置字体 */
+  background-color: #f4f4f4; /* 设置背景色 */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%; /* 设置容器宽度 */
+  margin: 20px auto; /* 居中显示 */
+  background-color: #fff; /* 设置背景色 */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+h1 {
+  text-align: center; /* 居中显示标题 */
+  color: #333; /* 设置文字颜色 */
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.hobby-image {
+  max-width: 30%; /* 图片最大宽度 */
+  height: auto;
+  border-radius: 5px; /* 添加圆角 */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* 设置表格边框合并 */
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* 设置底部边框 */
+}
+
+th {
+  background-color: #f2f2f2; /* 设置表头背景色 */
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
